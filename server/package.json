@@ -11,10 +11,3 @@
   "license": "ISC"
 }
 
-"scripts": {
-  "start": "node server.js"
-}
-
-"scripts": {
-  "start": "concurrently \"cd server && npm start\" \"cd client && npm start\""
-}
